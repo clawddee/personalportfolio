@@ -1,0 +1,90 @@
+body{
+  background-color: #F7C5CC;
+  font-family: monospace;
+  color: #CC313D;
+}
+
+#navbar{
+  display: flex;
+  justify-content: center;
+  top: 0px;
+  position: fixed;
+}
+hr{
+  margin: 5px;
+  color: #CC313D; 
+}
+
+  
+  
+
+.menu-icon {
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: pink;
+  }
+}
+
+
+
+a{
+  color: #CC313D;
+  font-size: 16px;
+  text-decoration: none;
+
+}
+
+a:visited{
+   color:#FA6775;
+   
+}
+
+h1{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.penguin {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  color: #FA6775;
+}
+
+.project-tile {
+display: flex;
+flex-wrap: wrap;
+padding: 0 3px;
+justify-content: center;
+align-items: center;
+
+}
+
+.tile1{
+  width: 300px;
+  height: 200px;
+  flex: 25%;
+  max-width: 20%;
+  padding: 3px 4px;
+}
+
+.tile2{
+  width: 300px;
+  height: 200px;
+   flex: 25%;
+  max-width: 20%;
+  padding: 3px 4px;
+}
+
+.tile3{
+  width: 300px;
+  height: 200px;
+   flex: 25%;
+  max-width: 20%;
+  padding: 3px 4px;
+}
